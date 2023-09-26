@@ -1,0 +1,14 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
+sample = np.random.standard_cauchy(1000)
+l = np.quantile(sample, 0.05)
+r = np.quantile(sample, 0.95)
+sample_r = []
+
+for i in range(1000):
+    if sample[i] > l and sample[i] < r:
+        sample_r.append(sample[i])
+
+plt.hist(sample_r)
+plt.show()
