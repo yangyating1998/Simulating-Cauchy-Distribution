@@ -1,7 +1,9 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-# np.random.standard_cauchy defaultly takes parameters as 0 and 1
 sample = np.random.standard_cauchy(30)
 plt.hist(sample)
+plt.xlabel('x')
+plt.xlabel('frequency')
+plt.title('small size simulation')
 plt.show()
