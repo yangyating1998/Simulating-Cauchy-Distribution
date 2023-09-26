@@ -2,7 +2,7 @@
 Cauchy Distribution, having "UNDEFINED" mean
 
 ## Codes
-- small sample simulation
+- small sample
 - large sample without outliers
 
 ## Packages & Modules
