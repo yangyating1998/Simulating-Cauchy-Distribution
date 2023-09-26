@@ -19,3 +19,4 @@ Cauchy distribution
 Different graph?
 - Cauchy distribution has fatty tails
 - "np.cauchy" is influenced heavily by the OUTLIERS!
+- Therefore, in the "large" code, outliers need to be excluded
