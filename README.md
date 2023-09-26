@@ -2,8 +2,9 @@
 Cauchy Distribution, having "UNDEFINED" mean
 
 ## Packages & Modules
-This project uses two **numpy modules** to simulate cauchy distribution with parameters 0 and 1.
-- 
+This project uses two ways to simulate cauchy distribution with parameters 0 and 1.
+- np.random.cauchy
+- np.random.standard_cauchy
 
 ## Math Info
 Cauchy distribution
@@ -14,4 +15,4 @@ Cauchy distribution
 ## Analysis
 Different graph?
 - Cauchy distribution has fatty tails
-- The normal ==np.cauchy== didn't
+- "np.cauchy" is influenced heavily by the OUTLIERS!
