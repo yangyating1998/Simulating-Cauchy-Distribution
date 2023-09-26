@@ -1,10 +1,13 @@
 # Simulating-Cauchy-Distribution
 Cauchy Distribution, having "UNDEFINED" mean
 
+## Codes
+- small sample simulation
+- large sample without outliers
+
 ## Packages & Modules
-This project uses two ways to simulate cauchy distribution with parameters 0 and 1.
-- np.random.cauchy
-- np.random.standard_cauchy
+This project uses np.random.standard_cauchy to show the cauchy distribution simulation with parameters 0 and 1
+- defaultly, cauchy distribution with parameters 0 and 1 is the ration of two standard normal distributions
 
 ## Math Info
 Cauchy distribution
