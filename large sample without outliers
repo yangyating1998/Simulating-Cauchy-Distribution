@@ -11,4 +11,7 @@ for i in range(1000):
         sample_r.append(sample[i])
 
 plt.hist(sample_r)
+plt.xlabel('x')
+plt.ylabel('frequency')
+plt.title('large size simulation without outliers')
 plt.show()
