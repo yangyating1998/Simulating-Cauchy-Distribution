@@ -4,6 +4,6 @@ import matplotlib.pyplot as plt
 sample = np.random.standard_cauchy(30)
 plt.hist(sample)
 plt.xlabel('x')
-plt.xlabel('frequency')
+plt.ylabel('frequency')
 plt.title('small size simulation')
 plt.show()
